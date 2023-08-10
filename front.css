@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vh;
+    height: 100vh;
+    background-color: aqua; 
+}
+
+/* .container{
+   
+} */
+
+.container,  button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 85px;
+    height: 60px;
+    border: 2px solid black;
+    background-color: yellowgreen;
+    border: none;
+    box-shadow: 2px;
+}
